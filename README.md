@@ -1,6 +1,5 @@
 # MilitaryOperations
-
-TODO: Write a gem description
+A command line tool that prints the names of historical military operations.
 
 ## Installation
 
@@ -19,8 +18,13 @@ Or install it yourself as:
     $ gem install military_operations
 
 ## Usage
+You can use the `sample` option to control the number of results returned.
 
-TODO: Write usage instructions here
+```bash
+military_operations --sample 2
+# Desert Strike
+# Bear Bite
+```
 
 ## Contributing
 
