@@ -11,7 +11,7 @@ module MilitaryOperations
   def self.operations(size)
     names = urls.map { |url| get_page_text url }
                 .map { |text| Nokogiri::HTML text }
-                .flat_map { |page| names_from_page page } 
+                .flat_map { |page| names_from_page page }
 
     names.sample size
   end
@@ -30,6 +30,6 @@ module MilitaryOperations
       format: "json",
       prop:   "text",
       page:   name
-    }).first.parse.text["*"]
+    }).parse.text["*"]
   end
 end
