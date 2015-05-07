@@ -18,12 +18,22 @@ Or install it yourself as:
     $ gem install military_operations
 
 ## Usage
+
+### In a CLI
 You can use the `sample` option to control the number of results returned.
 
 ```bash
 military_operations --sample 2
 # Desert Strike
 # Bear Bite
+```
+
+### As a module
+```ruby
+require 'military_operations'
+
+MilitaryOperations.operations(2)
+# ["Desert Strike", "Bear Bite"]
 ```
 
 ## Contributing
