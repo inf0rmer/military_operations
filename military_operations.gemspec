@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
 
   spec.add_dependency "nokogiri", "~> 1.6"
-  spec.add_dependency "blanket_wrapper", "~> 2.0"
+  spec.add_dependency "blanket_wrapper", "~> 3.0"
 end

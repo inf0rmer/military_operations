@@ -2,13 +2,13 @@ PATH
   remote: .
   specs:
     military_operations (0.0.1)
-      blanket_wrapper (~> 2.0)
+      blanket_wrapper (~> 3.0)
       nokogiri (~> 1.6)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    blanket_wrapper (2.0.1)
+    blanket_wrapper (3.0.1)
       httparty
       recursive-open-struct
     coderay (1.1.0)
@@ -26,7 +26,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rake (10.4.2)
-    recursive-open-struct (0.5.0)
+    recursive-open-struct (0.6.3)
     slop (3.6.0)
 
 PLATFORMS
